@@ -16,7 +16,8 @@ class Microsoft {
 
 class Facebook extends Microsoft {
     constructor (name, age) {
-        super (name, age);
+        super (name);
+        this.age = age;
         
     }
     studentAge () {
